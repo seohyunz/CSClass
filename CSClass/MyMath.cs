@@ -8,7 +8,7 @@ namespace CSClass
 
         int some_int=3;
 
-         public static int Abs(int v) //절대값을 구하는 매서드
+         public static double  Abs(double v) //절대값을 구하는 매서드
         {
             //some_int = 5;  인스턴스 변수 : 클래스 메서드에서 사용 불가
             //foo();         인스턴스 메서드 : 클래스 메서드에서 사용 불가
