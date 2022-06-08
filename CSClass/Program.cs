@@ -122,6 +122,12 @@ namespace CSClass
 
             SingleTon mySingle =  SingleTon.getInstance();
 
+            Console.WriteLine("첫번째 위치");
+            Sample sample = new Sample();
+            Console.WriteLine("두번째 위치"); 
+            Console.WriteLine(Sample.value);
+            Console.WriteLine("세번째 위치");
+
 
         }
     }
