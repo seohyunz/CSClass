@@ -1,4 +1,5 @@
-﻿namespace CSClass
+﻿using System;
+namespace CSClass
 {
     internal class Product
     {
@@ -24,5 +25,9 @@
             return this.id + ":" +this.name +" : "+this.price;
         }
 
+        ~Product()
+        {
+            Console.WriteLine(this.name+"의 소별자 호출");
+        }
     }
 }
