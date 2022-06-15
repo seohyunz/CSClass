@@ -135,7 +135,10 @@ namespace CSClass
             /*Console.WriteLine(fibo.Get(1));
             Console.WriteLine(fibo.Get(2));
             Console.WriteLine(fibo.Get(3));*/
-            Console.WriteLine(Fibonacci.Get(1000));
+           // Console.WriteLine(Fibonacci.Get(1000));
+
+            Cat c = new Cat();
+            Dog d = new Dog();
 
         }
     }
