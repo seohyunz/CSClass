@@ -8,6 +8,7 @@ namespace CSClass
 {
     internal class Program
     {
+        public static int number = 10;
         static void Main(string[] args)
         {
             Car car = new Car();
@@ -144,7 +145,7 @@ namespace CSClass
             //List<Dog> Dogs = new List<Dog>() { new Dog(), new Dog(), new Dog() };
             // List<Cat> Cats = new List<Cat>() { new Cat(), new Cat(), new Cat() };
             List<Animal> Animals = new List<Animal>() {
-                new Dog(), new Dog(), new Dog(),
+          /*      new Dog(), new Dog(), new Dog(),
                 new Cat(), new Cat(),new Cat()};
             
             foreach(var item in Animals)
@@ -159,9 +160,18 @@ namespace CSClass
                 var cat = item as Cat;
                 if (cat != null) { cat.Meow(); }
                 // itme is Animal;
-            }
+            }*/
 
-            
+            Child ChildA = new Child();
+            Child ChildB = new Child("string");
+
+            int number = 20;
+            Console.WriteLine(number);
+
+            foreach(var item in Animals)
+            {
+                item.Eat();
+            }
 
 
 

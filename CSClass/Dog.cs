@@ -2,7 +2,7 @@
 
 namespace CSClass
 {
-    public class Dog
+    public class Dog :Animal
     {
         int Age;
 
@@ -18,12 +18,12 @@ namespace CSClass
 
         public void Bark()
         {
-            Console.WriteLine("Bark");
+            Console.WriteLine("멍멍");
         }
 
         public void Eat()
         {
-            Console.WriteLine("eat");
+            Console.WriteLine("강아지가 사료를 먹는다");
         }
 
     }

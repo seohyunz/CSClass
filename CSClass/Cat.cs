@@ -6,7 +6,6 @@ namespace CSClass
     {
         public Cat()
         {
-            Age = 0;
         }
 
         public void Sleep()
@@ -21,7 +20,7 @@ namespace CSClass
 
         public void Eat()
         {
-            Console.WriteLine("eat");
+            Console.WriteLine("고양이가 사료를 먹는다");
         }
 
 
