@@ -149,11 +149,16 @@ namespace CSClass
             
             foreach(var item in Animals)
             {
-                item.Eat();
+               // item.Eat();
                 item.Sleep();
                 if(item is Dog) { ((Dog)item).Mong(); }
                 if(item is Cat) { ((Cat)item).Meow(); }
-               // itme is Animal;
+
+                var dog = item as Dog;
+                if(dog != null) { dog.Bark(); }
+                var cat = item as Cat;
+                if (cat != null) { cat.Meow(); }
+                // itme is Animal;
             }
 
             

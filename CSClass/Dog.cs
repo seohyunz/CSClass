@@ -16,9 +16,9 @@ namespace CSClass
             Console.WriteLine("zz");
         }
 
-        public void Mong()
+        public void Bark()
         {
-            Console.WriteLine("Mong");
+            Console.WriteLine("Bark");
         }
 
         public void Eat()
